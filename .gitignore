@@ -1,0 +1,17 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.lock.info
+
+.terraform.lock.hcl
+# Local Terraform directory
+.terraform/
+
+# Terraform plan files
+*.tfplan
+
+# Log files
+*.log
+
+# Variable files with sensitive information
+*.tfvars
